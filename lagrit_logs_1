@@ -1,0 +1,205 @@
+root@2c53e8de163e:/lagrit/bin# ./lagrit
+ 
+ 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+*               *                                             *                 
+*               *    Program:  LaGriT V3.3.4   Linux          *                 
+*               *    Date Compile: 2024/04/24                 *                 
+*               *    Run Time: 2024/Jun 18  12:19:37          *                 
+*               *    Manual:   https://lagrit.lanl.gov        *                 
+*               *                                             *                 
+*               * * * * * * * * * * * * * * * * * * * * * * * *                 
+ 
+                               -----oOo-----                                    
+             LaGriT V3 LA-CC-15-069  https://github.com/lanl/LaGriT             
+  Copyright 2016. Triad National Security, LLC.  All rights reserved. This      
+  program was produced under U.S. Government contract 89233218CNA000001         
+  for Los Alamos National Laboratory (LANL), which is operated by Triad         
+  National Security, LLC for the U.S. Department of Energy/National Nuclear     
+  Security Administration.  All rights in the program are reserved by Triad     
+  National Security, LLC, and the U.S. Department of Energy/National Nuclear    
+  Security Administration. The Government is granted for itself and others      
+  acting on its behalf a nonexclusive, paid-up, irrevocable worldwide license   
+  in this material to reproduce, prepare derivative works, distribute copies    
+  to the public, perform publicly and display publicly, and to permit others to 
+  do so. This software is open source and available under the BSD-3 License.    
+                               -----oOo-----                                    
+ 
+ 
+Output log file: lagrit.out                                                     
+Command log file: lagrit.log                                                    
+ 
+ Enter a command
+define / X0 / 0.
+define/X0/0.                                                                    
+ Enter a command
+define / X1 / 4000.
+define / Y0 / 0.
+define / Y1 / 4000.
+define / Z0 / 0.
+define / Z1 / 3000.
+
+define / NX / 51
+define / NY / 51
+define / NZ / 26define/X1/4000.                                                                 
+ Enter a command
+define/Y0/0.                                                                    
+ Enter a command
+define/Y1/4000.                                                                 
+ Enter a command
+define/Z0/0.                                                                    
+ Enter a command
+define/Z1/3000.                                                                 
+ Enter a command
+                                                                                
+define/NX/51                                                                    
+ Enter a command
+define/NY/51                                                                    
+ Enter a command
+define / MONAME / mohex
+define/NZ/26define/MONAME/mohex                                                 
+ Enter a command
+cmo / create / MONAME / / / hex
+cmo/create/MONAME///hex                                                         
+ Enter a command
+cmo / create / mohex / / / hex
+cmo/create/mohex///hex                                                          
+ Enter a command
+createpts / brick / xyz / NX NY NZ / X0 Y0 Z0 / X1 Y1 Z1 / 1 1 1
+createpts/brick/xyz/NX NY NZ/X0 Y0 Z0/X1 Y1 Z1/1 1 1                            
+ MMVERIFY: Array prolog overwritten
+   Array fsetnames                        in mohex                           
+   Length=                   64 , Address=       97389640506880
+ MMVERIFY: Array epilog overwritten
+   Array fsetnames                        in mohex                           
+   Length=                   64 , Address=       97389640506880
+ MMVERIFY: Array prolog overwritten
+   Array eltsetnames                      in mohex                           
+   Length=                   64 , Address=       97389640504720
+ MMVERIFY: Array epilog overwritten
+   Array eltsetnames                      in mohex                           
+   Length=                   64 , Address=       97389640504720
+ MMVERIFY: Array prolog overwritten
+   Array psetnames                        in mohex                           
+   Length=                   64 , Address=       97389640502560
+ MMVERIFY: Array epilog overwritten
+   Array psetnames                        in mohex                           
+   Length=                   64 , Address=       97389640502560
+ MMVERIFY: Array prolog overwritten
+   Array jtet                             in mohex                           
+   Length=                    6 , Address=       97389640509216
+ MMVERIFY: Array epilog overwritten
+   Array jtet                             in mohex                           
+   Length=                    6 , Address=       97389640509216
+ MMVERIFY: Array prolog overwritten
+   Array itet                             in mohex                           
+   Length=                    8 , Address=       97389640509040
+ MMVERIFY: Array epilog overwritten
+   Array itet                             in mohex                           
+   Length=                    8 , Address=       97389640509040
+ MMVERIFY: Array prolog overwritten
+   Array jtetoff                          in mohex                           
+   Length=                    1 , Address=       97389640502224
+ MMVERIFY: Array epilog overwritten
+   Array jtetoff                          in mohex                           
+   Length=                    1 , Address=       97389640502224
+ MMVERIFY: Array prolog overwritten
+   Array itetoff                          in mohex                           
+   Length=                    1 , Address=       97389640502112
+ MMVERIFY: Array epilog overwritten
+   Array itetoff                          in mohex                           
+   Length=                    1 , Address=       97389640502112
+ MMVERIFY: Array prolog overwritten
+   Array itettyp                          in mohex                           
+   Length=                    1 , Address=       97389640502000
+ MMVERIFY: Array epilog overwritten
+   Array itettyp                          in mohex                           
+   Length=                    1 , Address=       97389640502000
+ MMVERIFY: Array prolog overwritten
+   Array itetclr                          in mohex                           
+   Length=                    1 , Address=       97389640501888
+ MMVERIFY: Array epilog overwritten
+   Array itetclr                          in mohex                           
+   Length=                    1 , Address=       97389640501888
+ MMVERIFY: Array prolog overwritten
+   Array xtetwd                           in mohex                           
+   Length=                    1 , Address=       97389640501776
+ MMVERIFY: Array epilog overwritten
+   Array xtetwd                           in mohex                           
+   Length=                    1 , Address=       97389640501776
+ MMVERIFY: Array prolog overwritten
+   Array zic                              in mohex                           
+   Length=                    1 , Address=       97389640501664
+ MMVERIFY: Array epilog overwritten
+   Array zic                              in mohex                           
+   Length=                    1 , Address=       97389640501664
+ MMVERIFY: Array prolog overwritten
+   Array yic                              in mohex                           
+   Length=                    1 , Address=       97389640501552
+ MMVERIFY: Array epilog overwritten
+   Array yic                              in mohex                           
+   Length=                    1 , Address=       97389640501552
+ MMVERIFY: Array epilog overwritten
+   Array xic                              in mohex                           
+   Length=                    1 , Address=       97389640501440
+--------
+malloc(): corrupted top size
+
+Program received signal SIGABRT: Process abort signal.
+
+Backtrace for this error:
+#0  0x589331e8cb60 in ???
+#1  0x589331e8c185 in ???
+#2  0x753fcd40351f in ???
+	at ./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+#3  0x753fcd4579fc in __pthread_kill_implementation
+	at ./nptl/pthread_kill.c:44
+#4  0x753fcd4579fc in __pthread_kill_internal
+	at ./nptl/pthread_kill.c:78
+#5  0x753fcd4579fc in __GI___pthread_kill
+	at ./nptl/pthread_kill.c:89
+#6  0x753fcd403475 in __GI_raise
+	at ../sysdeps/posix/raise.c:26
+#7  0x753fcd3e97f2 in __GI_abort
+	at ./stdlib/abort.c:79
+#8  0x753fcd44a675 in __libc_message
+	at ../sysdeps/posix/libc_fatal.c:155
+#9  0x753fcd461cfb in malloc_printerr
+	at ./malloc/malloc.c:5664
+#10  0x753fcd4656f1 in _int_malloc
+	at ./malloc/malloc.c:4373
+#11  0x753fcd466261 in __GI___libc_malloc
+	at ./malloc/malloc.c:3321
+#12  0x753fcd43fba3 in __GI__IO_file_doallocate
+	at ./libio/filedoalloc.c:101
+#13  0x753fcd44ecdf in __GI__IO_doallocbuf
+	at ./libio/genops.c:347
+#14  0x753fcd44df5f in _IO_new_file_overflow
+	at ./libio/fileops.c:744
+#15  0x753fcd44c6d4 in _IO_new_file_xsputn
+	at ./libio/fileops.c:1243
+#16  0x753fcd44c6d4 in _IO_new_file_xsputn
+	at ./libio/fileops.c:1196
+#17  0x753fcd441f1b in __GI__IO_puts
+	at ./libio/ioputs.c:40
+#18  0x5893315a8d1f in ???
+#19  0x5893315a674c in ???
+#20  0x5893315a5d2e in ???
+#21  0x5893315a2930 in ???
+#22  0x589331618a86 in ???
+#23  0x5893314d11df in ???
+#24  0x5893314d7a36 in ???
+#25  0x589331648b87 in ???
+#26  0x58933138ccfb in ???
+#27  0x58933138908f in ???
+#28  0x589331385cec in ???
+#29  0x589331385d39 in ???
+#30  0x753fcd3ead8f in __libc_start_call_main
+	at ../sysdeps/nptl/libc_start_call_main.h:58
+#31  0x753fcd3eae3f in __libc_start_main_impl
+	at ../csu/libc-start.c:392
+#32  0x5893313856b4 in ???
+#33  0xffffffffffffffff in ???
+Aborted (core dumped)
+root@2c53e8de163e:/lagrit/bin# 
+
